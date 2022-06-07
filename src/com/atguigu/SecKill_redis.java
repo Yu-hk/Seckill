@@ -13,7 +13,6 @@ public class SecKill_redis {
 
     public static void main(String[] args) {
         Jedis jedis =new Jedis("192.168.163.131",6379);
-        jedis.auth("yu149286");
         System.out.println(jedis.ping());
         jedis.close();
     }
