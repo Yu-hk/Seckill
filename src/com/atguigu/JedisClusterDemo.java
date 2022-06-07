@@ -13,7 +13,6 @@ public class JedisClusterDemo {
         int connectionTimeout = 3000;
         int soTimeout = 3000;
         int maxAttempts = 6;
-        String password = "yu149286";
         GenericObjectPoolConfig<Jedis> poolConfig = new GenericObjectPoolConfig<>();
         poolConfig.setMaxTotal(200);
         poolConfig.setMaxIdle(32);
